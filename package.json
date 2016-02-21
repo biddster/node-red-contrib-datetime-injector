@@ -1,0 +1,27 @@
+{
+  "name": "git init",
+  "version": "0.1.0",
+  "description": "Node Red injector node that fires once on a particular date and time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@biddster",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.11.2"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.1.2",
+    "lodash": "^4.5.0",
+    "mocha": "^2.2.5"
+  },
+  "node-red": {
+    "nodes": {
+      "datetime-injector": "index.js"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "git init",
+  "name": "node-red-contrib-datetime-injector",
   "version": "0.1.0",
   "description": "Node Red injector node that fires once on a particular date and time",
   "main": "index.js",

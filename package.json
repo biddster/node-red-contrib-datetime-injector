@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-datetime-injector",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node Red injector node that fires once on a particular date and time",
   "main": "index.js",
   "scripts": {
